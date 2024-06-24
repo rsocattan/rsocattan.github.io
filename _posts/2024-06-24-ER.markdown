@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Can we model the exchange rate in Brazil?"
+description: This post is dedicated to forecast experiments of one of the most challenging macroeconomic variables: the exchange rate (RS/US)
+date: '2024-06-22'
+---
+Hi there
