@@ -1,0 +1,183 @@
+---
+layout: post
+title: "Brazil's macroeconomics"
+description: This post presents important features of the Brazilian economy macroeconomic system.
+date: '2021-05-24'
+---
+
+
+### Integrating finance to macro
+
+In the previous post, we saw that the most usual macroeconomic modelling tool (neoclassical DSGE models) paid little attention to the financial real nexus. This was particularly true for the pre-2008 models. 
+
+As mentioned before, however, the post-Keynesian literature is precisely characterised by integrating the real and monetary aspects of the economic system. In this post, I will illustrate: a) an alternative modelling framework that addresses some of the drawbacks of neoclassical economics, and b) how this new framework relates to observed data from Brazil.
+
+
+
+
+
+#### The SFC methodology
+
+A large strand of the post-Keynesian literature has embraced the so-called stock-flow consistent (SFC) modelling. 
+
+SFC models normally embody five sectors: firms, households, government, the
+central bank, and private banks. The models are designed to ensure that - as in any real economy - the income inflows to one sector are outflows from other sectors. The same applies to financial transactions. These flows accumulate into debt, if the sector expends more than it earns. Or the flows accumulate into wealth, if the sector inflows outweights its outflows. Thus, the models are stock flow consistent.
+
+SFC models are nothing but an accounting framework, but they are usually employed with post-Keynesian (PK) assumptions, which gives motion to the accounting structure.
+
+
+Technically, SFC models are a system of differential or difference equations, whose solution depends on the initial state of the system, besides the constant parameters. 
+
+This approach is opposed to DSGE models in that it is not based on constraint optimization schemes. In fact, the very concept of optimality is contested, and the system may have multiple equilibria, non-stable equilibria, or even diverge from a given steady state. By assuming non-optimal behavior, nothing guarantees that the economic system will converge to full employment of resources. 
+
+
+SFC models tend to assume realistic behavioural equations in which agents cannot foresee the future (as they normally do in DSGE), and set their decisions on *ad-hoc* assumptions. Besides that, its stock-flow structure is largely based on the system of national accounts, making this framework useful for replicating and studying real macroeconomic systems
+
+Indeed, a number of works are already employing some of those features to develop empirical models. See examples for [England](https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2016/a-dynamic-model-of-financial-balances-for-the-uk.pdf), [Denmark](http://www.levyinstitute.org/publications/an-empirical-stock-flow-consistent-macroeconomic-model-for-denmark), and [Italy](http://www.levyinstitute.org/publications/a-stock-flow-consistent-quarterly-model-of-the-italian-economy).
+
+
+In the next section I will show the core data supporting the SFC methodology, and use the Brazilian economy as an illustrative case. This will allow us to see important connections between financial and real transactions. Also, important features of Brazil's macroeconomic system will be highlighted. 
+
+
+#### Stocks and flows in the Brazilian economy
+
+To understand the macroeconomic characteristics of the Brazilian economy, we first need to ask who the agents are and how they earn and spend their financial inflows.
+
+Agents are classified according to the Brazilian Institute of Geography and Statistics (IBGE) as:
+
+1. Households
+2. Non-Financial Corporations
+3. Financial Corporations
+4. Government
+5. Rest of the World (RoW)
+6. Non-profit institutions serving households (NPISHs)
+
+
+The agents relate through two channels: by the transactions they make each period, and by the balance sheet (the financial stocks) that accumualte over time. That is, they relate through **flows** (e.g., consumption, interest payments, government transfers) and through financial **stocks** (shares, bonds, deposits, etc.).  
+
+Let's check out first, which are the most important transactions. With some cleaning procedures, below we illustrate their average values between 2000 and 2017, relative to GDP, along with their min-max ranges: 
+
+<body>
+    <div align="center">
+<figure>
+<iframe src="/assets/img/key_flows.html" frameborder="0" height="600" width="630" display:block></iframe>
+	<figcaption>Fig. 1 - Transactions mean, max and min values (2000-2017) (% GDP)  </figcaption>
+</figure>
+    </div>
+</body>
+
+
+
+However, by definition, every expenditure for one sector represents an income for another. Therefore, it is critical to understand whether these transactions represent sources of income or expenses, for each sector. To understand this, I calculated the source of income for each sector, and its respective expenditure. The results are illustrated in the diagram below:
+
+
+<body><a name="sanks"></a>
+    <div align="center">
+<figure>
+<iframe src="/assets/img/sanks.html" frameborder="0" height="600" width="630" display:block></iframe>
+	<figcaption>Fig. 2 - Resources and Uses (R$)  </figcaption>
+</figure>
+    </div>
+</body>
+
+
+
+Many are the insights we can highlight from this figure. 
+
+**First**, an important characteristic of Figure [2](#sanks) is that productive activity (GDP) is not only an important source of income for firms, but also for banks, households and even the government (the latter, for accounting purposes only). In this sense, an adequate representation of the BR economy should not neglect this source of income for banks, and especially for households. This last category includes informal activities, small businesses, production of goods for own consumption (e.g. small agriculture), and even imputed rent, for those who own their own property.   
+
+
+**Second**, interest and wealth (which adds to capital-related income) are an important source of income for banks, as expected, but also for households and firms. This emphasises a source of financial income that derives from balance sheet relationships. For example, if households own shares in companies or government bonds, this will increase their sources of income and consequently the level of their expenditure. And this real-financial nexus is widely employed in SFC models.
+
+
+**Third**, transfers are a relevant share of household income. We can see that their share is similar to wages, which means that an adequate representation of the Brazilian economy with macroeconomic models should not disregard the distributive role played by the government. 
+
+
+**Forth**, firms, households, the government, and even banks invest (i.e., consume fixed capital). Most growth models do not incorporate anyone other than firms as those responsible for capital accumulation. Since, investments play a crucial role in economic dynamics in the short run and - depending on your theoretical background - also in the long run,  it is essential to incorporate some of these features in models that aim to study real phenomena through a macroeconomic lens. 
+
+These characteristics represent the main transactions that are being made in the Brazilian macroeconomic system. Interest and wealth-related income, as we have seen, are important sources of income for households, for example, but they derive from past accumulation of wealth, or debt. 
+
+In the next section we will assess how macroeconomic agents relate to each other through finance.
+
+
+#### Financial Stocks
+
+The system of national accounts (SNA) from Brazil incorporates the following financial instruments:
+
+1. Deposits;
+2. Bonds;
+3. Equities (shares);
+5. Loans;
+6. Insurance reserves;
+6. Others
+
+
+
+The first question we want to address is what are the most important financial instruments. Retrieving data from the SNA, and with some manipulation, we can find that deposits are the most significant financial instrument in absolute levels, reaching 160 % of GDP on average between 2004 and 2017. Being followed by bonds (145 %), loans (121 %), shares (95 %), insurance reserves (44 %) and finally by others (22 %), as illustrated below
+
+
+
+<body>
+    <div align="center">
+<figure>
+<iframe src="/assets/img/key_stocks.html" frameborder="0" height="600" width="630" display:block></iframe>
+	<figcaption>Fig. 3 - Financial Instruments mean value (2004-2017) (% GDP)  </figcaption>
+</figure>
+    </div>
+</body>
+
+
+But how each of these instruments are distributed among the economic agents?
+
+Unfortunately, this information is only available for 2009. So we will first show the who-to-whom table, a matrix which illustrates the financial position for each instrument and sector. In order to facilitate the reading, I have calculated each sector's net position for each instrument, as we can see below:
+
+
+<body><a name="wtw"></a>
+    <div align="center">
+<figure>
+<iframe src="/assets/img/wtw.html" frameborder="0" height="600" width="630" display:block></iframe>
+	<figcaption>Fig. 4 - Inter-sectoral financial wealth (2009) (% GDP). Banks are financial institutions. GOV denotes government. HH stands for households; NFC are non-financial corporations (firms) and RoW denotes the foreing sector.  </figcaption>
+</figure>
+    </div>
+</body>
+
+
+We can see, for example, that banks are net debtors of households (grey), but are largely net creditors of the government. The high level of deposits in the economy (banks liabilities), and the key role played by treasury bonds on the financial markets structure help to explain this feature.
+
+Moreover, we can see that the foreing economy (ROW) is a net debtor of the Brazilian domestic economy, and that the most foreing-indebtpt sector are non-financial corporations (NFC).
+
+
+Finally, we can see that whereas banks, firms and the government are net debtors, households and the foreign economy are net creditors in Brazil's macroeconomic system.
+
+
+Although Figure [4](#wtw) shows the aggregate balance sheet relations it does not descriminate between instruments. So we have calculated the net financial position, by financial instrument, for each sector between 2004-2017 in Brazil: 
+
+
+<body><a name="stocks_all"></a>
+    <div align="center">
+<figure>
+<iframe src="/assets/img/stocks_all.html" frameborder="0" height="600" width="630" display:block></iframe>
+	<figcaption>Fig. 5 - Financial wealth (% GDP) </figcaption>
+</figure>
+    </div>
+</body>
+
+
+As expected, banks are the most important financial intermediary in the economy, with large levels of assets and liabilities. Because of the central role of government bonds in financial markets, we can see that most of banks' wealth is composed of bonds.
+
+
+The high level of household wealth is also remarkable, with most of it being made up of insurance reserves and shares. Since households have nothing but credit as a means of financing, loans are their most important liability. And we can see that this instrument has grown, approximately 20 percentage points between 2004-2017, a remarkable result of increased access to credit and labour force formalisation.
+
+
+Another interesting feature of Figure [5](#stocks_all), in that the domestic economy (mostly non-financial firms) has increased its financial obligations to the external sector in loans relatively more than in equities.
+
+A trend that not only highlights a change in the financing behaviour of firms, but also sheds light on the importance of financial wealth for macroeconomic agents. From these results, it is clear that finance cannot be left aside in macroeconomic modelling.
+
+
+
+In particular, I must argue that an economy with a long history of inflationary processes, foreign debt crisis and with a growing financial system, cannot be adequately understood without the inclusion of some of these important macroeconomic aspects.
+
+
+
+
+
