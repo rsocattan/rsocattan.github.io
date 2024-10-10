@@ -8,11 +8,5 @@ date: '2021-05-24'
 
 ### Forecasting the random walk
 
-This an attempt to remotely change my webpage through rstudio
+This an attempt to remotely change my webpage through rstudio. AGAIN
 
-
-```R
-# Your R code here
-x <- 1:10
-y <- x^2
-plot(x, y, type = "l")
