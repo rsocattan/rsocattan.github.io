@@ -10,7 +10,3 @@ date: '2021-05-24'
 
 This an attempt to remotely change my webpage through rstudio.Again.
 
-<<<<<<< HEAD
-=======
-# 
->>>>>>> backup-branch
