@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Can we model the exchange rate? The R$/US$ problem"
+description: This posts illustrates a (though) forecasting problem
 date: '2021-05-24'
 ---
 
