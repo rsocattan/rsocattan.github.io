@@ -1,0 +1,51 @@
+---
+layout: post
+title: "Can we model the exchange rate?"
+date: '2021-05-24'
+---
+
+
+
+## The R$ / US$ problem
+
+What happens when you put 10 economists in a room? You'll get 11 opinions. As a social science, economics is well know for its wide range of opinions about the same topic.
+
+One opinion, however, seems to be undisputed: the unpredictability of the exchange rate.
+
+The exchange rate is simply the relative price between two currencies. 
+
+For instance, when one says that the exchange rate is above six, it means that one US dollar is worth ~ six Brazilian Reais.
+
+Since the domestic economy is connected to foreign markets through multiple dimensions, this particular price is of great importance for a country's domestic economy.
+
+For instance, when the exchange rate (R\$-US\$) increases, exports (in BRZ) rises accordingly.
+
+Since most goods produced and consumed domestically -  cars, fertilizers or even wheat - require foreign inputs, the cost of production depends on the exchange rate.
+
+Apart from the real-side-economics, the exchange rate might also have huge impact on foreign investments. When a non-domestic agent buys government bonds in domestic market she exchanges dollars for reais. After, say, 10 years, when the bond finally reaches its maturity, the foreign investor, exchanges reais for dollars. But what if instead of 6 dollars per real, now she only gets 3 due to a non-anticipated Real appreciation? What about a foreign debt from a domestic company? Imagine you have you have to pay - in dollars - interests and principal but at due date you face a huge depreciation of reais and instead of 6, a dollar is worth 8 Reais?
+
+As one can see, many are the implications of the exchange rate and its risk. Of course there are multiple hedge instruments one can use to mitigate such variation - usually swaps and future contracts.
+
+But what if one wants to minimize the cost of your hedge and take some risk by estimating future exchange rate? Can we predict the exchange rate? At which extent?
+
+### Exchange Rate Modelling
+
+The plot below represents a the past 12 months of the BRZ/USD nominal rate:
+
+
+
+Forecasting is the art of estimating any data process with unseen data.And there are a number of techniques used to forecast the exchange rate. We can separate them between multivariate and univariate methods. The first uses seemingly exogenous features that help us to understand the data generating process of the exchange rate. Normally based on macronoecomic fundamentals, such as the price levels and the nominal interests rates between the two economies - regularly one of the main drivers of capital flows.
+
+Univariate processes, on the other hand, are solely based on past dynamics of the feature. The most commonly implemented one is called the ARIMA process. In which the current exchange rate can be explained by past observations and by white noise - that is, residuals from past estimates. Depending on the model, and largely at the data frequency past values and past residuals can have more or less impact on current observations. Put simply a ARIMA model is defined as :
+
+
+$$
+Y_t = \phi_1 Y_{t-1} + \phi_2 Y_{t-2} + \dots + \phi_p Y_{t-p} + \varepsilon_t + \theta_1 \varepsilon_{t-1} + \theta_2 \varepsilon_{t-2} + \dots + \theta_q \varepsilon_{t-q}
+$$
+
+
+
+
+
+
+
